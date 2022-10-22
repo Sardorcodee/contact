@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+  display: flex;
+}
+
+.biryarim {
+  width: 65%;
+}
+
+.ikkidanbir {
+  flex: 1;
+}
+
+.uchdanbir {
+  width: 33%;
+}
+
+.turtdanbir {
+  width: 25%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 1400px;
+  height: auto;
+  gap: 1em;
+  margin: 0 auto;
+  padding: 5em;
+}
+.container .hover {
+  width: 20%;
+}
+.container .hover a {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  height: 3.5em;
+  width: 0;
+  border-radius: 4px 10px 10px 4px;
+  opacity: 0;
+  transition: 0.3s;
+  font-size: 0;
+  margin: 0 0.3em;
+  text-transform: uppercase;
+  padding: 1.2em 0;
+  font-weight: 700;
+}
+.container .fon:hover + a,
+.container a:hover {
+  font-size: 18px;
+  opacity: 99999;
+  width: 60%;
+}
+.container .twitter ~ a {
+  background-color: #00a6ff;
+}
+.container .instagram ~ a {
+  background-color: #ff007b;
+}
+.container .google ~ a {
+  background-color: #f00;
+}
+.container .whatsap ~ a {
+  background-color: #00dd21;
+}
+
+body {
+  background: #333;
+}
+
+.whatsap, .google, .instagram, .twitter, .facebook {
+  border-radius: 7px;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding: 0.5em 0;
+  width: 2em;
+  height: 2em;
+}
+
+.facebook {
+  background-color: blue;
+}
+
+.twitter {
+  background-color: #00a6ff;
+}
+
+.instagram {
+  background-color: #ff007b;
+}
+
+.google {
+  background-color: #f00;
+}
+
+.whatsap {
+  background-color: #00dd21;
+}/*# sourceMappingURL=style.css.map */

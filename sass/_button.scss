@@ -1,0 +1,39 @@
+// %btn {
+//   font-size: 20px;
+//   padding: 1em 5em;
+//   display: inline-block;
+//   color: white;
+//   border: 3px solid;
+//   &:hover {
+//     background-color: inherit;
+//     border: 3px solid;
+//   }
+//   &:active {
+//     opacity: 0.5;
+//     color: white;
+//   }
+// }
+
+// .qizil-btn {
+//   @extend %btn;
+
+//   background-color: red;
+//   border-color: red;
+//   &:hover{
+//     color: red;
+//   }
+// }
+// h3 {
+//   color: red;
+// }
+// @mixin btn-mix($rangi){
+//     @extend %btn;
+//     background-color: $rangi;
+//     border-color: $rangi;
+//     &:hover{
+//         color: $rangi;
+//     }
+// }
+// .qora-btn{
+//     @include btn-mix(black)
+// }

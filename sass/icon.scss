@@ -1,0 +1,35 @@
+@import "main";
+body {
+  background: #333;
+}
+$instagram: #ff007b;
+$google: #f00;
+$whatsap: #00dd21;
+%style {
+  border-radius: 7px;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding: 0.5em 0;
+  width: 2em;
+  height: 2em;
+}
+@mixin icon-style($rang) {
+  @extend %style;
+  background-color: $rang;
+}
+.facebook {
+  @include icon-style(blue);
+}
+.twitter {
+  @include icon-style(#00a6ff);
+}
+.instagram {
+  @include icon-style($instagram);
+}
+.google {
+  @include icon-style($google);
+}
+.whatsap {
+  @include icon-style($whatsap);
+}
